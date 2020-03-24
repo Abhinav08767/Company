@@ -48,11 +48,16 @@ a:hover {
 
 .btn-primary {
   padding: 8px 20px;
-  background: #1BBD36;
+  background-color: indigo;
   color: #fff;
   border-radius: 4px;
   border:none;
   margin-top: 10px;
+}
+
+.text-center .btn-primary:hover{
+  background-color: deeppink;
+  color: indigo;
 }
 
 .h2about{
@@ -94,7 +99,8 @@ cursor: alias;
   font-weight: bold;
   text-align: center;
   font-family: monospace; 
-  margin-top: 30px
+  margin-top: 30px;
+  margin-left: -150px
 }
 
 .text-center h2 {
@@ -744,6 +750,12 @@ ul.social-network li a {
 
 .media-body p {
 	margin-bottom:30px;
+}
+
+.h211{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: cursive;
 }
 
 .media ul li {
